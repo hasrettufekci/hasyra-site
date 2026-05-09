@@ -40,17 +40,22 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#f8f6f2] text-[#071a38]">
+
       <motion.div
         className="fixed left-0 right-0 top-0 z-[100] h-[4px] origin-left bg-gradient-to-r from-green-500 via-orange-400 to-green-500"
         style={{ scaleX }}
       />
 
       <div className="pointer-events-none fixed left-[-120px] top-[120px] h-[360px] w-[360px] rounded-full bg-green-300/30 blur-[90px]" />
+
       <div className="pointer-events-none fixed right-[-140px] top-[420px] h-[420px] w-[420px] rounded-full bg-orange-300/30 blur-[100px]" />
 
       <nav className="sticky top-0 z-50 px-4 py-4">
+
         <div className="mx-auto flex max-w-7xl items-center justify-between rounded-[34px] bg-white/85 px-7 py-5 shadow-[0_18px_60px_rgba(7,26,56,0.10)] backdrop-blur-2xl">
+
           <a href="#" className="flex items-center gap-3">
+
             <img
               src="/logo.png"
               alt="HASYRA Logo"
@@ -60,28 +65,71 @@ export default function Home() {
             <span className="text-3xl font-black tracking-tight text-[#071a38]">
               Has<span className="text-orange-500">y</span>ra
             </span>
+
           </a>
 
           <div className="hidden items-center gap-7 text-sm font-bold text-[#071a38] lg:flex">
-            <a href="#problem" className="transition hover:-translate-y-1 hover:text-green-600">
+
+            <a
+              href="#problem"
+              className="transition hover:-translate-y-1 hover:text-green-600"
+            >
               Problem
             </a>
 
-            <a href="#technology" className="transition hover:-translate-y-1 hover:text-green-600">
+            <a
+              href="#technology"
+              className="transition hover:-translate-y-1 hover:text-green-600"
+            >
               Technology
             </a>
 
-            <a href="#how" className="transition hover:-translate-y-1 hover:text-green-600">
+            <a
+              href="#how"
+              className="transition hover:-translate-y-1 hover:text-green-600"
+            >
               How It Works
             </a>
 
-            <a href="#parent" className="transition hover:-translate-y-1 hover:text-green-600">
+            <a
+              href="#parent"
+              className="transition hover:-translate-y-1 hover:text-green-600"
+            >
               Parents
             </a>
 
-            <a href="/tr" className="transition hover:-translate-y-1 hover:text-green-600">
-              TR
-            </a>
+            <div className="flex items-center gap-3 ml-4">
+
+              <div className="flex items-center gap-3 ml-4">
+
+                <a
+                  href="/"
+                  className="transition hover:scale-110"
+                  title="English"
+                >
+                  <img
+                    src="/flag-gb.png"
+                    alt="English"
+                    className="h-7 w-7 rounded-full object-cover"
+                  />
+                </a>
+
+                <a
+                  href="/tr"
+                  className="transition hover:scale-110"
+                  title="Türkçe"
+                >
+                  <img
+                    src="/flag-tr.png"
+                    alt="Türkçe"
+                    className="h-7 w-7 rounded-full object-cover"
+                  />
+                </a>
+
+              </div>
+
+            </div>
+
           </div>
 
           <a
@@ -90,23 +138,30 @@ export default function Home() {
           >
             🚀 Coming Soon →
           </a>
+
         </div>
+
       </nav>
 
       <section className="relative mx-auto grid max-w-7xl items-center gap-12 overflow-hidden px-6 py-20 md:grid-cols-2">
+
         <div className="absolute left-[-120px] top-10 h-[320px] w-[320px] rounded-full bg-green-300/20 blur-[100px]" />
+
         <div className="absolute right-[-120px] bottom-0 h-[320px] w-[320px] rounded-full bg-orange-300/20 blur-[100px]" />
 
         <div>
+
           <div className="mb-6 inline-flex rounded-full bg-green-600 px-5 py-2 text-sm font-bold text-white">
             Coming Soon
           </div>
 
           <h1 className="text-4xl font-black leading-tight md:text-7xl">
             Supporting{" "}
+
             <span className="bg-gradient-to-r from-green-500 to-orange-400 bg-clip-text text-transparent">
               independent eating
             </span>{" "}
+
             habits.
           </h1>
 
@@ -116,6 +171,7 @@ export default function Home() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
+
             <a
               href="#soon"
               className="inline-flex items-center gap-3 rounded-3xl bg-gradient-to-r from-green-500 to-orange-500 px-10 py-5 text-lg font-black text-white shadow-[0_18px_50px_rgba(249,115,22,0.28)] transition hover:scale-105"
@@ -129,6 +185,7 @@ export default function Home() {
             >
               How It Works →
             </a>
+
           </div>
 
           <div className="mt-14 grid grid-cols-3 gap-6 border-t border-black/5 pt-8">
