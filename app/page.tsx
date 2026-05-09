@@ -382,7 +382,7 @@ export default function Home() {
 
           <div className="flex gap-5">
             <a
-              href="/privacy-policy.html"
+              href="/privacy-policy-en.html"
               className="transition hover:text-green-600"
             >
               Privacy
