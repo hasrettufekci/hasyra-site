@@ -308,7 +308,10 @@ export default function Home() {
           </div>
 
           <div className="flex gap-5">
-            <a href="#" className="transition hover:text-green-600">
+            <a
+              href="/privacy-policy.html"
+              className="transition hover:text-green-600"
+            >
               Gizlilik
             </a>
 
